@@ -1,5 +1,5 @@
 
-def syllobales(word, num):
+def syllables(word, num):
     if len(word) % num == 0:
         x = int(len(word)/num)
         while word:
@@ -12,6 +12,6 @@ def syllobales(word, num):
         print("Error")
 
 
-syllobales("establish", 3)
-syllobales("recollective", 6)
-syllobales("strongest", 4)
+syllables("establish", 3)
+syllables("recollective", 6)
+syllables("strongest", 4)
